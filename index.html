@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TinDog</title>
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/sun.css' rel='stylesheet'>
+  <link href='https://unpkg.com/css.gg@2.0.0/icons/css/moon.css' rel='stylesheet'>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="./css/style.css">
+  <!-- <link rel="stylesheet" href="dist/css/styles.css"> -->
+  
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+</head>
+
+<body id="body" class="gradient-background">
+
+  
+  
+  <section>
+    <div class="container fixed-top">
+      <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-2 mb-2 ">
+        <div class="col-md-3 mb-2 mb-md-0">
+          <a href="#" class="d-inline-flex link-body-emphasis text-decoration-none ">
+            <img id="logo" src="/images/undraw_person (4).svg" height="30">
+          </a>
+        </div>
+  
+        <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0   ">
+          <li><a id="home_nav" href="#" class="nav-link px-2 link-primary">Home</a></li>
+          <li><a id="nav_elements" href="#skills" class="nav-link px-2 link-dark">Skills</a></li>
+          <li><a id="nav_elements" href="#" class="nav-link px-2 link-dark">About me</a></li>
+          <li><a id="nav_elements" href="#" class="nav-link px-2 link-dark">Projects</a></li>
+          <li><a id="nav_elements" href="#" class="nav-link px-2 link-dark">Contact</a></li>
+        </ul>
+  
+        <div class="col-md-3 text-end ">
+          <button type="button" class="btn" onclick="toggleDarkMode()">
+            <i  id="iconElement" class="gg-moon"></i>
+          </button>
+        </div>
+        <div id="header_back" class="position-absolute top-0 start-0 w-100 h-100 gradient-background" style="opacity: 0.8; border-radius: 50px; z-index: -1;"></div>
+      </header>
+    </div>
+  </section>
+  
+  <!-- Title -->
+  <!-- <section id="title">
+    <div class="container  p-5 mt-5 mb-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5 ">
+        <div class="col-10 col-sm-8 col-lg-6">
+          <img id="going_up" src="undraw_going_up_re_86kg.svg" class="d-block mx-lg-auto img-fluid animate__animated animate__fadeIn" alt="Bootstrap Themes" height="600"
+            loading="lazy">
+        </div>
+        
+        <div id="bla" class="col-lg-6  animate__animated ">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hello!</h1>
+          <h2 class="text-primary">I'M Nisanda Thilakshana</h2>
+          <p id="text" class="animate__animated">Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+
+  </section> -->
+
+  <section id="title">
+    <div class="container p-5 mt-5 mb-5">
+      <div class="row flex-lg-row-reverse align-items-center g-5 pt-5">
+        <div class="col-10 col-sm-8 col-lg-6 position-relative">
+          <img id="going_up" src="/images/undraw_going_up_re_86kg.svg" class="d-block mx-lg-auto img-fluid animate__animated animate__fadeIn" alt="Bootstrap Themes" height="600" loading="lazy">
+          <div class="position-absolute top-0 end-0">
+            <div class="row-lg-3 row-sm-12 m-4">
+              <a href="https://example.com/medium">
+                <img src="/images/icons8-medium (1).svg" alt="techcrunch" height="40">
+              </a>
+            </div>
+            <div class="row-lg-3 row-sm-12 m-4">
+              <a href="https://example.com/medium">
+              <img src="/images/icons8-facebook (1).svg" alt="facebookk" height="40">
+            </a>
+            </div>
+            <div class="row-lg-3 row-sm-12 m-4">
+              <a href="https://example.com/medium">
+              <img src="/images/icons8-linkedin (1).svg" alt="linkedin" height="40">
+            </a>
+            </div>
+            <div class="row-lg-3 row-sm-12 m-4">
+              <a href="https://example.com/medium">
+              <img src="/images/icons8-github.svg" alt="github" height="40">
+            </a>
+            </div>
+          </div>
+        </div>
+        
+        <div id="bla" class="col-lg-6  animate__animated ">
+          <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3">Hello!</h1>
+          <h2 class="text-primary">I'M Nisanda Thilakshana</h2>
+          <p id="text" class="animate__animated">Web Developer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  
+
+
+
+  <section id="skills">
+    <!-- Skills section -->
+    <div class="container col-xxl-8 p-5 mt-5 border-top">
+      <div class="text-center mb-5">
+        <h2>Skills</h2>
+      </div>
+      
+      <div class="row">
+        <div class="col">
+          <!-- Technical Skills container -->
+          <div class="container" data-aos="fade-right">
+            <h4>Technical Skills</h4>
+            <div class="progress mt-3 mb-1 " style="width: 70%;">
+              <div class="progress-bar bg-primary " style="width: 100%; border-radius: 10px;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-1" style="width: 80%;">
+              <div class="progress-bar bg-success" style="width: 100%; border-radius: 10px;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-1" style="width: 60%;">
+              <div class="progress-bar bg-info" style="width: 100%; border-radius: 10px;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-1" style="width: 90%;">
+              <div class="progress-bar bg-danger" style="width: 100%; border-radius: 10px;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <div class="progress mb-1" style="width: 50%;">
+              <div class="progress-bar bg-secondary" style="width: 100%; border-radius: 10px;" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+            </div>
+            <!-- Add more progress bars for other technical skills if needed -->
+          </div>
+        </div>
+        <div class="col">
+          <!-- Soft Skills container -->
+          <div class="container" data-aos="fade-left">
+            <h4>Soft Skills</h4>
+            <p >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Ut vel nunc dolor. Vestibulum pulvinar odio enim, at aliquet orci placerat a.</p>
+            <!-- Add more paragraphs for other soft skills if needed -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+ 
+  <section class="section section--code">
+    <div class="container col-xxl-8 p-5 mt-5 border-top">
+      <h2 class="text-center pb-3">Education</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <div class=" p-3 m-4 text-center" data-aos="fade-up">
+              <img src="/images/undraw_pic_profile_re_7g2h (1).svg" height="100">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Ut vel nunc dolor. Vestibulum pulvinar odio enim, at aliquet orci placerat a.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col offset-md-5">
+          <div class=" p-3 m-4 text-center" data-aos="fade-up">
+              <img src="/images/undraw_pic_profile_re_7g2h (1).svg" height="100">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Ut vel nunc dolor. Vestibulum pulvinar odio enim, at aliquet orci placerat a.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class=" p-3 m-4 text-center" data-aos="fade-up">
+              <img src="/images/undraw_pic_profile_re_7g2h (1).svg" height="100">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Ut vel nunc dolor. Vestibulum pulvinar odio enim, at aliquet orci placerat a.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col offset-md-5">
+          <div class=" p-3 m-4 text-center" data-aos="fade-up">
+              <img src="/images/undraw_pic_profile_re_7g2h (1).svg" height="100">
+              <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam in dui mauris. Ut vel nunc dolor. Vestibulum pulvinar odio enim, at aliquet orci placerat a.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Add more items in separate rows if needed -->
+    </div>
+</section>
+
+
+
+  <section>
+    <div class="my-5">
+      <div class="pb-0 p-5 text-center ">
+        <div class="container py-5">
+          <h2 class="text-body-emphasis">"Success is not the key to happiness. Happiness is the key to success. If you love what you are doing, you will be successful."</h2>
+          <img id="profile-img" class="profile-img mt-5" src="/images/undraw_pic_profile_re_7g2h.svg" alt="niss" height="200">
+          <p class="col-lg-8 mx-auto lead mt-2">
+            Nisanda Thilakshana
+          </p>
+        </div>
+
+
+  
+
+  
+  <!-- Features -->
+  <!-- <section id="features">
+    <div class="container px-4 py-5" >
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-check2-circle" viewBox="0 0 16 16">
+          <path d="M2.5 8a5.5 5.5 0 0 1 8.25-4.764.5.5 0 0 0 .5-.866A6.5 6.5 0 1 0 14.5 8a.5.5 0 0 0-1 0 5.5 5.5 0 1 1-11 0z" />
+          <path d="M15.354 3.354a.5.5 0 0 0-.708-.708L8 9.293 5.354 6.646a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l7-7z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Easy to use.</h3>
+          <p>So easy to use, even your dog could do it.</p>
+          
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-mortarboard" viewBox="0 0 16 16">
+            <path d="M8.211 2.047a.5.5 0 0 0-.422 0l-7.5 3.5a.5.5 0 0 0 .025.917l7.5 3a.5.5 0 0 0 .372 0L14 7.14V13a1 1 0 0 0-1 1v2h3v-2a1 1 0 0 0-1-1V6.739l.686-.275a.5.5 0 0 0 .025-.917l-7.5-3.5ZM8 8.46 1.758 5.965 8 3.052l6.242 2.913L8 8.46Z"/>
+            <path d="M4.176 9.032a.5.5 0 0 0-.656.327l-.5 1.7a.5.5 0 0 0 .294.605l4.5 1.8a.5.5 0 0 0 .372 0l4.5-1.8a.5.5 0 0 0 .294-.605l-.5-1.7a.5.5 0 0 0-.656-.327L8 10.466 4.176 9.032Zm-.068 1.873.22-.748 3.496 1.311a.5.5 0 0 0 .352 0l3.496-1.311.22.748L8 12.46l-3.892-1.556Z"/>
+            </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Elite Clientele.</h3>
+          <p>We have all the dogs, the greatest dogs.</p>
+          
+        </div>
+      </div>
+      <div class="col d-flex align-items-start">
+        <div class="icon-square text-body-emphasis bg-body-secondary d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" class="bi bi-arrow-through-heart" viewBox="0 0 16 16">
+          <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z" />
+          </svg>
+        </div>
+        <div>
+          <h3 class="fs-2 text-body-emphasis">Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+          
+        </div>
+      </div>
+    </div>
+  </div> -->
+
+
+  <!-- </section> -->
+  <!-- Testimonial -->
+
+  <!-- Pricing -->
+  <!-- <section id="pricing">
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal text-body-emphasis">A Plan for Every Dog's Needs</h1>
+      <p class="fs-5 text-body-secondary">Simple and affordable price plans for you and your dog.</p>
+    </div>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Chihuahua</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$0<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>5 Matches Per Day</li>
+              <li>10 Messages Per Day</li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-dark">Sign up for free</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">Labrador</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$15<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Unlimited Matches</li>
+              <li>Unlimited Messages</li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Get started</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-dark">
+          <div class="card-header py-3 text-bg-dark border-dark">
+            <h4 class="my-0 fw-normal">Mastiff</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">$29<small class="text-body-secondary fw-light">/mo</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Pirority Listing</li>
+              <li>Unlimited Matches & Messages</li>
+              <li>Unlimited App Usage</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-dark">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </section> -->
+  <!-- Footer -->
+  <!-- <section id="contact" class="gradient-background">
+    <div class="container ">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 mt-5 border-top">
+        <div class="col mb-3">
+
+          <p class="text-body-secondary">© Tindog</p>
+        </div>
+
+        <div class="col mb-3">
+
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">About</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+  </section> -->
+  <footer>
+    
+    <div class="container d-flex flex-column flex-sm-row justify-content-center border-top">
+      <p>© 2023 nisslk. All rights reserved.</p>
+    </div>
+  </footer>
+
+
+  <div class="cursor"></div>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init(1200);
+    function toggleDarkMode() {
+      var h2tag = document.querySelector("h2");
+      var htmlTag = document.documentElement;
+      var currentTheme = htmlTag.getAttribute("data-bs-theme");
+      var iconElement = document.getElementById("iconElement");
+      var title = document.getElementById("body");
+      var logo = document.getElementById("logo")
+      var going_up = document.getElementById("going_up");
+      var navElements = document.getElementsByClassName("nav-link");
+      var header_back = document.getElementById("header_back");
+      var profile_img = document.getElementById("profile-img");
+      
+      for (var i = 1; i < navElements.length; i++) {
+        var navElement = navElements[i];
+        var text = navElement.textContent.toLowerCase().trim();
+          if (currentTheme === "dark") {
+            navElement.classList.remove("link-light");
+            navElement.classList.add("link-dark");
+          } else {
+            navElement.classList.remove("link-dark");
+            navElement.classList.add("link-light");
+          }
+        }
+      
+    
+      if (currentTheme === "dark") {
+        htmlTag.removeAttribute("data-bs-theme");
+        iconElement.className = "gg-moon";
+        title.classList.add("gradient-background");
+        navElements[0].classList.remove("link-warning");
+        navElements[0].classList.add("link-primary");
+        logo.removeAttribute("src");
+        logo.setAttribute("src","/images/undraw_person (4).svg");
+        h2tag.classList.remove("text-warning");
+        h2tag.classList.add("text-primary");
+        going_up.removeAttribute("src");
+        going_up.setAttribute("src","/images/undraw_going_up_re_86kg.svg");
+        profile_img.removeAttribute("src");
+        profile_img.setAttribute("src","/images/undraw_pic_profile_re_7g2h.svg");
+        header_back.classList.remove("bg-dark");
+        header_back.classList.add("gradient-background");
+        
+      } else {
+        htmlTag.setAttribute("data-bs-theme", "dark");
+        iconElement.className = "gg-sun";
+        title.classList.remove("gradient-background");
+        navElements[0].classList.remove("link-dark");
+        navElements[0].classList.add("link-warning");
+        logo.removeAttribute("src");
+        logo.setAttribute("src","/images/undraw_person (3).svg");
+        h2tag.classList.remove("text-primary");
+        h2tag.classList.add("text-warning");
+        going_up.removeAttribute("src");
+        going_up.setAttribute("src","/images/undraw_going_up_re_86kg (1).svg");
+        profile_img.removeAttribute("src");
+        profile_img.setAttribute("src","/images/undraw_pic_profile_re_7g2h (1).svg");
+        header_back.classList.remove("gradient-background");
+        header_back.classList.add("bg-dark");
+      }
+    }
+
+    var myDiv = document.getElementById("bla");
+
+    myDiv.addEventListener("mouseover", function() {
+      myDiv.classList.add("animate__headShake");
+    });
+
+    
+    myDiv.addEventListener("mouseout", function() {
+      myDiv.classList.remove("animate__headShake");
+    });
+
+
+    var roles = ["Web Developer", "Undergraduate", "Software Tester"];
+    var runningText = document.getElementById("text");
+    var index = 0;
+
+    function changeRole() {
+      runningText.textContent = roles[index];
+      runningText.classList.remove("animate__slideInRight");
+      void runningText.offsetWidth; // Trigger reflow to remove the animation class instantly
+      runningText.classList.add("animate__slideInRight");
+      index = (index + 1) % roles.length;
+    }
+
+    setInterval(changeRole, 3000); // Change role every 3 seconds
+
+    const cursor = document.querySelector('.cursor');
+
+    document.addEventListener('mousemove', e => {
+        cursor.setAttribute("style", "top: "+(e.pageY - 10)+"px; left: "+(e.pageX - 10)+"px;")
+    })
+
+    document.addEventListener('click', () => {
+        cursor.classList.add("expand");
+
+        setTimeout(() => {
+            cursor.classList.remove("expand");
+        }, 500)
+    })
+
+    </script>
+</body>
+
+</html>
